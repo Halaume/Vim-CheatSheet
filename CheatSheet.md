@@ -212,7 +212,7 @@
 |`w`	|Word	|
 |`s`	|Sentence	|
 |`[` `(` `{` `<`	|A [], (), or {} block	|
-|`'` `"` ```	|A quoted string	|
+|`'` `"` ``` ` ```	|A quoted string	|
 |`b`	|A block [(	|
 |`B`	|A block in [{	|
 |`t`	|A XML tag block	|

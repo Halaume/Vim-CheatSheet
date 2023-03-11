@@ -171,7 +171,7 @@
 |`gu`	|Lowercase	|
 |`!`	|Filter through external program	|
 
-### See :help operator
+#### See :help operator
 
 ##	Exemples
 
@@ -186,7 +186,7 @@
 |`dip`	|Delete a text object (inside paragraph)	|
 |`(in visual mode) d`	|Delete selection	|
 
-### See: :help motion.txt
+#### See: :help motion.txt
 
 #	TEXT OBJECTS
 

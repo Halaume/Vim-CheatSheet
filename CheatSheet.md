@@ -41,10 +41,66 @@
 |`h` `j` `k` `l`|Arrow keys	|
 |`<C-U>` / `<C-D>`	|Half-page up/down	|
 |`<C-B>` / `<C-DF>`	|Page up/down	|
-|	:----:|
-|word|
+
+###### Words
+
 |	:----:	|	----:	|
-|try	|oui	|
+|`b` / `w`	|Previous/next word	|
+`ge` / `e`	|Previous/next end of word	|
+
+###### line
+
+|	:----:	|	----:	|
+|`0`	|Start of line	|
+|`^`	|Start of line (after whitespace)	|
+|`$`	|End of line	|
+
+###### Character
+
+|	:----:	|	----:	|
+|`fc`	|Go forward to character c	|
+|`Fc`	|Go backward to character c	|
+
+###### Document
+
+|	:----:	|	----:	|
+|`gg`	|First line	|
+|`G`	|Last line	|
+|`:{number}`	|Go to line {number}	|
+|`{number}G`	|Go to line {number}	|
+|`{number}j`	|Go down {number} lines	|
+|`{number}k`	|Go up {number} lines	|
+
+###### Window
+
+|	:----:	|	----:	|
+|`zz`	|Center this line	|
+|`zt`	|Top this line	|
+|`zb`	|Bottom this line	|
+|`H`	|Move to top of screen	|
+|`M`	|Move to middle of screen	|
+|`L`	|Move to bottom of screen	|
+
+###### Search
+
+|	:----:	|	----:	|
+|`n`	|Next matching search pattern	|
+|`N`	|Previous match	|
+|`*`	|Next whole word under cursor	|
+|`#`	|Previous whole word under cursor	|
+
+###### Tab pages
+
+|	:----:	|	----:	|
+|`:tabedit [file]`	|Edit file in a new tab	|
+|`:tabfind [file]`	|Open file if exists in new tab	|
+|`:tabclose`	|Close current tab	|
+|`:tabs`	|List all tabs	|
+|`:tabfirst`	|Go to first tab	|
+|`:tablast`	|Go to last tab	|
+|`:tabn`	|Go to next tab	|
+|`:tabp`	|Go to previous tab	|
+
 
 ##	Editing
 

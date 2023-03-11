@@ -36,6 +36,7 @@
 |`:%s/foo/bar/g`|Replacce foo with bar in whole document	|
 
 ##	Navigating
+
 |	Cmd		|	Purpose	|
 |	:----:	|	----:	|
 |`h` `j` `k` `l`|Arrow keys	|
@@ -44,12 +45,14 @@
 
 ###### Words
 
+|	Cmd		|	Purpose	|
 |	:----:	|	----:	|
 |`b` / `w`	|Previous/next word	|
 `ge` / `e`	|Previous/next end of word	|
 
 ###### line
 
+|	Cmd		|	Purpose	|
 |	:----:	|	----:	|
 |`0`	|Start of line	|
 |`^`	|Start of line (after whitespace)	|
@@ -57,12 +60,14 @@
 
 ###### Character
 
+|	Cmd		|	Purpose	|
 |	:----:	|	----:	|
 |`fc`	|Go forward to character c	|
 |`Fc`	|Go backward to character c	|
 
 ###### Document
 
+|	Cmd		|	Purpose	|
 |	:----:	|	----:	|
 |`gg`	|First line	|
 |`G`	|Last line	|
@@ -73,6 +78,7 @@
 
 ###### Window
 
+|	Cmd		|	Purpose	|
 |	:----:	|	----:	|
 |`zz`	|Center this line	|
 |`zt`	|Top this line	|
@@ -83,6 +89,7 @@
 
 ###### Search
 
+|	Cmd		|	Purpose	|
 |	:----:	|	----:	|
 |`n`	|Next matching search pattern	|
 |`N`	|Previous match	|
@@ -91,6 +98,7 @@
 
 ###### Tab pages
 
+|	Cmd		|	Purpose	|
 |	:----:	|	----:	|
 |`:tabedit [file]`	|Edit file in a new tab	|
 |`:tabfind [file]`	|Open file if exists in new tab	|

@@ -129,15 +129,64 @@
 
 ##	Visual mode
 
+|	Cmd		|	Purpose	|
+|	:----:	|	----:	|
+|`v`	Enter visual mode	|
+|`V`	Enter visual line mode	|
+|`<C-V>`	Enter visual block mode	|
+
+###### In visual mode
+
+|	Cmd		|	Purpose	|
+|	:----:	|	----:	|
+|`d` / `x`	|Delete selection	|
+|`s`	|Replace selection	|
+|`y`	|Yank selection (Copy)	|
+
+##### See Operators for other things you can do.
 
 #	OPERATORS
 
 ##	Usage
 
+##### Operators let you operate in a range of text (defined by motion). These are performed in normal mode.
+
+|	d		|	w	|
+|	:----:	|	:----:	|
+|Operator	|	Motion	|
+
+
 ##	Operators list
+
+|	Operator	|	Purpose	|
+|	:----:	|	----:	|
+|`d`	|Delete	|
+|`y`	|Yank (copy)	|
+|`c`	|Change (delete then insert)	|
+|`>`	|Indent right	|
+|`<`	|Indent left	|
+|`=`	|Autoindent	|
+|`g~`	|Swap case	|
+|`gU`	|Uppercase	|
+|`gu`	|Lowercase	|
+|`!`	|Filter through external program	|
+
+### See :help operator
 
 ##	Exemples
 
+##### Combine operators with motions to use them.
+
+|	Cmd		|	Purpose	|
+|	:----:	|	----:	|
+|`dd`	|(repeat the letter) Delete current line	|
+|`dw`	|Delete to next word	|
+|`db`	|Delete to beginning of word	|
+|`2dd`	|Delete 2 lines	|
+|`dip`	|Delete a text object (inside paragraph)	|
+|`(in visual mode) d`	|Delete selection	|
+
+### See: :help motion.txt
 
 #	TEXT OBJECTS
 

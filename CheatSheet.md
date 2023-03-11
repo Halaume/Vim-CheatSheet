@@ -41,8 +41,10 @@
 |`h` `j` `k` `l`|Arrow keys	|
 |`<C-U>` / `<C-D>`	|Half-page up/down	|
 |`<C-B>` / `<C-DF>`	|Page up/down	|
-###### |word|
-|try|oui|
+|	:----:|
+|word|
+|	:----:	|	----:	|
+|try	|oui	|
 
 ##	Editing
 

@@ -192,9 +192,30 @@
 
 ##	Usage
 
+##### Text objects let you operate (with an operator) in or around text blocks (objects).
+
+|v	|i	|p	|
+|	:----:	|	:----:	|	:----:	|
+|Operator	|[i]nside or [a]round	|Text object	|
+
 ##	Diff
 
+|	Cmd		|	Purpose	|
+|	:----:	|	----:	|
+|`gvimdiff file1 file2 [file3]`	|See differences between files, in HMI	|
+
 ##	Text objects
+
+|	Cmd		|	Purpose	|
+|	:----:	|	----:	|
+|`p`	|Paragraph	|
+|`w`	|Word	|
+|`s`	|Sentence	|
+|`[` `(` `{` `<`	|A [], (), or {} block	|
+|`'` `"` `\``	|A quoted string	|
+|`b`	|A block [(	|
+|`B`	|A block in [{	|
+|`t`	|A XML tag block	|
 
 ##	Exemples
 

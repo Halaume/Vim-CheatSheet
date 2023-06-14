@@ -23,7 +23,7 @@
 |	Cmd		|	Purpose	|
 |	:----:	|	----:	|
 |`x`	|Delete character	|
-|`dd`	|Delene line (Cut)	|
+|`dd`	|Delete line (Cut)	|
 |`yy`	|Yank line (Copy)	|
 |`p`	|Paste	|
 |`P`	|Paste before	|
@@ -33,7 +33,7 @@
 ##	Find & Replace
 |	Cmd		|	Purpose	|
 |	:----:	|	----:	|
-|`:%s/foo/bar/g`|Replacce foo with bar in whole document	|
+|`:%s/foo/bar/g`|Replace foo with bar in whole document	|
 
 ##	Navigating
 

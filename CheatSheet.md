@@ -28,7 +28,7 @@
 |`p`	|Paste	|
 |`P`	|Paste before	|
 |`"*p` / `"+p`	|Paste from system clipboard	|
-|`"*y` / `"+y`	|Paste to system clipboard	|
+|`"*y` / `"+y`	|Copy to system clipboard	|
 
 ##	Find & Replace
 |	Cmd		|	Purpose	|
